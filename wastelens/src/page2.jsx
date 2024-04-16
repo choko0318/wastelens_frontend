@@ -6,7 +6,7 @@ function LensPage() {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate("/lens");
+    navigate("/result");
   };
   return (
     <div className="lens">
