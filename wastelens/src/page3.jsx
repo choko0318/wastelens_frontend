@@ -10,7 +10,7 @@ function ResultPage() {
   };
   const trashType = "닭 뼈다귀";
   const resultType = "일반 쓰레기";
-  const resultColor = resultType === "일반 쓰레기" ? "blue" : "red";
+  const resultColor = resultType === "일반 쓰레기" ? "generalW" : "foodW";
   return (
     <div className="lens">
       <div className="contents">
