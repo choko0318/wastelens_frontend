@@ -60,3 +60,9 @@ p {
   font-size: 36px;
   font-weight: 900;
 }
+.red {
+  color: #ab4b54;
+}
+.blue {
+  color: #4b58ab;
+}

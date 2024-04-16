@@ -8,6 +8,9 @@ function ResultPage() {
   const handleButtonClick = () => {
     navigate("/");
   };
+  const trashType = "닭 뼈다귀";
+  const resultType = "일반 쓰레기";
+  const resultColor = resultType === "일반 쓰레기" ? "blue" : "red";
   return (
     <div className="lens">
       <div className="contents">
@@ -18,10 +21,11 @@ function ResultPage() {
           <div className="resultArea">
             <div>당신의 쓰레기</div>
             <div>
-              <span className="typeText">닭 뼈다귀</span>는
+              <span className="typeText">{trashType}</span>는
             </div>
             <div>
-              <span className="resultText">일반 쓰레기</span>입니다.
+              <span className={`resultText ${resultColor}`}>{resultType}</span>
+              입니다.
             </div>
           </div>
           <h2>Tip.</h2>
