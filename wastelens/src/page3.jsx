@@ -37,7 +37,7 @@ function ResultPage() {
         </div>
         <div className="bottom">
           <button class="my-button" onClick={handleButtonClick}>
-            <span>결과 확인하기</span>
+            <span>다시 물어보기</span>
           </button>
         </div>
       </div>
